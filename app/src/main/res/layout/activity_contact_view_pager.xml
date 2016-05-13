@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg_login"
+                tools:context="com.example.kiran.mybuddy.activitys.ContactViewPagerActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_contactviewpager_imagesilde"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/ll_contactviewpager_contactname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_contactviewpager_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_all_back_64"
+            />
+
+        <TextView
+            android:id="@+id/tv_contactviewpager_contactname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="hello"
+            android:textAlignment="center"
+            android:textColor="@color/contactviewpager_title"
+            android:textSize="@dimen/tvsize_contactviewpager_contactname"
+            />
+
+        <ImageView
+            android:id="@+id/iv_contactviewpager_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_contactviewpager_delete_64"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_contactviewpager_favourtcontactinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/marginleft_contactviewpager_ll"
+            android:layout_marginRight="@dimen/marginleft_contactviewpager_ll"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:id="@+id/ll_contactviewpager_favourit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_cotactviewpager_icfavourit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_contactviewpager_favourit_64"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/contactviewpager_tv_favourit"
+                    android:textSize="@dimen/tvsize_contactviewpager"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_contactviewpager_contactinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_contactviewpager_contactinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_contactviewpager_contactinfo_64"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_contactviewpager_contactinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/contactviewpager_tv_contactinfo"
+                    android:textSize="@dimen/tvsize_contactviewpager"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_contactviewpager_empdetails"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignBottom="@+id/rl_contactviewpager_favourtcontactinfo"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/marginleft_contactviewpager_ll"
+            android:layout_marginRight="@dimen/marginleft_contactviewpager_ll"
+            android:layout_marginTop="@dimen/margintop_contactviewpager_empdetails"
+            >
+
+            <TextView
+                android:id="@+id/tv_contactviewpager_empdetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/rl_contactviewpager_cmefunctions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_contactviewpage_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_contactviewpager_call_64"/>
+
+            <ImageView
+                android:id="@+id/iv_contactviewpager_sms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_contactviewpager_sms_64"/>
+
+            <ImageView
+                android:id="@+id/iv_contactviewpage_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_contactviewpager_email_64"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

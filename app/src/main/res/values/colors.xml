@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="rowcontatct_textcolor">#000000</color>
+    <color name="title_backgroundcolor">#4062BB</color>
+    <color name="tv_windowtitle">#59C3C3</color>
+    <color name="bg_login">#EBEBEB</color>
+    <color name="bg_dialogmenu">#E5F4E3</color>
+    <color name="contactviewpager_title">#000000</color>
+    <color name="contactinfo_title">#5BA6F0</color>
+    <color name="contactinfo_email">#5BA6F0</color>
+</resources>

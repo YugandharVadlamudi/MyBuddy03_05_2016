@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+          android:id="@+id/menu_createcontact"
+          android:orderInCategory="1"
+          android:title="@string/menu_createcontact"
+          app:showAsAction="collapseActionView"
+        />
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+          android:id="@+id/menu_profile"
+          android:orderInCategory="2"
+          android:title="@string/menu_profile"
+          app:showAsAction="collapseActionView"
+        />
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+          android:id="@+id/menu_changepassword"
+          android:orderInCategory="3"
+          android:title="@string/menu_changepassword"
+          app:showAsAction="collapseActionView"
+        />
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+          android:id="@+id/menu_favourit"
+          android:orderInCategory="4"
+          android:title="@string/menu_favourit"
+          app:showAsAction="collapseActionView"
+        />
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+          android:id="@+id/menu_logout"
+          android:orderInCategory="5"
+          android:title="@string/menu_logout"
+          app:showAsAction="collapseActionView"
+        />
+
+</menu>

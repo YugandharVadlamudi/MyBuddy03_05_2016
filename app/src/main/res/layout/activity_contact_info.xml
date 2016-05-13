@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/bg_login"
+    tools:context="com.example.kiran.mybuddy.activitys.ContactInfoActivity">
+    <ImageView
+        android:id="@+id/iv_contactinfo_profilepick"
+        android:layout_width="@dimen/width_iv_contactinfo"
+        android:layout_height="@dimen/height_iv_contactinfo"
+        android:layout_gravity="center"
+        />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_name"
+                android:textColor="@color/contactinfo_email"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_colon"
+
+                />
+            <TextView
+                android:id="@+id/tv_contactinfo_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lsdfj"
+
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_phonenumber"
+                android:textColor="@color/contactinfo_email"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_colon"
+
+                />
+            <TextView
+                android:id="@+id/tv_contactinfo_phonenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lsdfj"
+
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_age"
+                android:textColor="@color/contactinfo_email"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_colon"
+
+                />
+            <TextView
+                android:id="@+id/tv_contactinfo_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lsdfj"
+
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_email"
+                android:textColor="@color/contactinfo_email"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_colon"
+
+                />
+            <TextView
+                android:id="@+id/tv_contactinfo_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lsdfj"
+
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_profession"
+                android:textColor="@color/contactinfo_email"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_colon"
+
+                />
+            <TextView
+                android:id="@+id/tv_contactinfo_profession"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lsdfj"
+
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_bloodgroup"
+                android:textColor="@color/contactinfo_email"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_colon"
+
+                />
+            <TextView
+                android:id="@+id/tv_contactinfo_bloodgroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lsdfj"
+
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_working"
+                android:textColor="@color/contactinfo_email"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_colon"
+
+                />
+            <TextView
+                android:id="@+id/tv_contactinfo_working"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lsdfj"
+
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_city"
+                android:textColor="@color/contactinfo_email"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_colon"
+
+                />
+            <TextView
+                android:id="@+id/tv_contactinfo_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lsdfj"
+
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_state"
+                android:textColor="@color/contactinfo_email"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_colon"
+
+                />
+            <TextView
+                android:id="@+id/tv_contactinfo_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lsdfj"
+
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_country"
+                android:textColor="@color/contactinfo_email"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contactinfo_tv_colon"
+
+                />
+            <TextView
+                android:id="@+id/tv_contactinfo_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lsdfj"
+
+                />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

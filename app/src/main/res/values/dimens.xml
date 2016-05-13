@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="row_contactlist_Size_name">14sp</dimen>
+    <dimen name="row_contactlist_Size_phone">10sp</dimen>
+    <dimen name="rowcontactlist_contentpadding">3dp</dimen>
+    <dimen name="tvsize_contactviewpager">20sp</dimen>
+    <dimen name="marginleft_contactviewpager_ll">10dp</dimen>
+    <dimen name="margintop_contactviewpager_empdetails">10dp</dimen>
+    <dimen name="tvsize_contactviewpager_contactname">23sp</dimen>
+    <dimen name="size_title_header">25sp</dimen>
+    <dimen name="size_tvdialogmenu">25sp</dimen>
+    <dimen name="height_dialogmenu">100dp</dimen>
+    <dimen name="width_iv_contactinfo">150dp</dimen>
+    <dimen name="height_iv_contactinfo">150dp</dimen>
+    <dimen name="textsize_contactinfo">20sp</dimen>
+    <dimen name="et_marginbottom_login">5dp</dimen>
+    <dimen name="bt_margintop_login">10dp</dimen>
+</resources>

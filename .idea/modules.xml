@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyBuddy03_05_2016.iml" filepath="$PROJECT_DIR$/MyBuddy03_05_2016.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customtitleapplication/customtitleapplication.iml" filepath="$PROJECT_DIR$/customtitleapplication/customtitleapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navigationdrawerapplication/navigationdrawerapplication.iml" filepath="$PROJECT_DIR$/navigationdrawerapplication/navigationdrawerapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/runtimepermissionapplication/runtimepermissionapplication.iml" filepath="$PROJECT_DIR$/runtimepermissionapplication/runtimepermissionapplication.iml" />
+    </modules>
+  </component>
+</project>
